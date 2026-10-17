@@ -16,3 +16,4 @@ A client-side single-page app built with Vite, React, TanStack Router (file-base
 Serve `dist/` with an SPA fallback to `index.html` (`public/_redirects` for Netlify/Cloudflare Pages and `vercel.json` are included).
 
 Plans, pricing and contact details live in `src/lib/site.ts`. Contact forms open the visitor's email app addressed to hello@starfi.online.
+# Deployment trigger
