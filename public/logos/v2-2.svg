@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" fill="none">
+  <defs>
+    <linearGradient id="a2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a0a8b8"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(32, 34)">
+    <!-- Star outline (bolder, more visible) -->
+    <path d="M 0 -18 L 5.7 -5.5 L 18 -5.5 L 7.2 3.5 L 11 15.5 L 0 8 L -11 15.5 L -7.2 3.5 L -18 -5.5 L -5.7 -5.5 Z" stroke="url(#a2)" stroke-width="2" fill="none" stroke-linejoin="round" opacity="0.7"/>
+    <!-- Wi-fi arcs - nested inside star, very visible -->
+    <path d="M -13 -6 A 18.5 18.5 0 0 1 13 -6" stroke="url(#a2)" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M -8 -13 A 20 20 0 0 1 8 -13" stroke="url(#a2)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.75"/>
+    <path d="M -4 -17 A 21 21 0 0 1 4 -17" stroke="url(#a2)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+    <!-- Center dot -->
+    <circle cx="0" cy="-6" r="5" fill="url(#a2)"/>
+  </g>
+  <text x="68" y="42" font-family="Archivo, system-ui, sans-serif" font-weight="800" font-size="30" letter-spacing="2" fill="url(#a2)">STARFI</text>
+</svg>
