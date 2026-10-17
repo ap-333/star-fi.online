@@ -1,0 +1,3 @@
+Contact: mailto:hello@starfi.online
+Policy: https://starfi.online/privacy-policy
+Preferred-Languages: en
