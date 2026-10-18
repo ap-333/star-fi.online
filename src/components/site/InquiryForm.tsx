@@ -15,8 +15,8 @@ export function InquiryForm({
   messageLabel = "Message",
   messageRequired = true,
   submitLabel = "Send inquiry",
-  successTitle = "Thank you - your email is ready to send.",
-  successBody = `Your email app should have opened with your details. Just press send - or write to us at ${SITE.email}. Our team replies personally.`,
+  successTitle = "Thank you for your inquiry!",
+  successBody = `We've received your message and will get back to you within 24 hours at the email address you provided. Our team replies personally to every inquiry.`,
 }: {
   kind?: Kind; defaultType?: string | undefined; plan?: string | undefined; showType?: boolean; messageLabel?: string; messageRequired?: boolean;
   submitLabel?: string; successTitle?: string; successBody?: string;
@@ -45,13 +45,36 @@ export function InquiryForm({
       return;
     }
     setStatus("loading");
-    const subject = `[${kind}] ${data.inquiry_type ?? "Inquiry"}${plan ? ` - ${plan}` : ""}`;
-    const body = [
-      `Name: ${data.name}`, `Email: ${data.email}`, data.phone ? `Phone: ${data.phone}` : null, `Location: ${data.location}`,
-      data.inquiry_type ? `Inquiry type: ${data.inquiry_type}` : null, plan ? `Plan: ${plan}` : null, "", data.message,
-    ].filter((l) => l !== null).join("\n");
-    window.location.href = `mailto:${SITE.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    setStatus("success");
+    try {
+      const subject = `[${kind}] ${data.inquiry_type ?? "Inquiry"}${plan ? ` - ${plan}` : ""}`;
+      const body = [
+        `Name: ${data.name}`, `Email: ${data.email}`, data.phone ? `Phone: ${data.phone}` : null, `Location: ${data.location}`,
+        data.inquiry_type ? `Inquiry type: ${data.inquiry_type}` : null, plan ? `Plan: ${plan}` : null, "", data.message,
+      ].filter((l) => l !== null).join("\n");
+
+      const response = await fetch("https://formsubmit.co/ajax/" + SITE.email, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({
+          name: data.name,
+          email: data.email,
+          phone: data.phone,
+          location: data.location,
+          inquiry_type: data.inquiry_type,
+          message: data.message,
+          subject: `[${kind}] ${data.inquiry_type ?? "Inquiry"}${plan ? ` - ${plan}` : ""}`,
+        }),
+      });
+
+      if (response.ok) {
+        setStatus("success");
+        (e.currentTarget as HTMLFormElement).reset();
+      } else {
+        setStatus("error");
+      }
+    } catch (error) {
+      setStatus("error");
+    }
   }
 
   if (status === "success") {

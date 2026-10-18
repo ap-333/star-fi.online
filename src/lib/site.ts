@@ -3,7 +3,7 @@ export const SITE = {
   domain: "starfi.online",
   url: "https://starfi.online",
   tagline: "Satellite internet, beyond boundaries.",
-  email: "hello@starfi.online",
+  email: "contact@starfi.online",
   phone: "8008918321",
   phoneHref: "tel:+18008918321",
   phoneDisplay: "(800) 891-8321",
