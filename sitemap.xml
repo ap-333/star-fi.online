@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://starfi.online/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://starfi.online/plans</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://starfi.online/residential</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://starfi.online/business</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://starfi.online/travel</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://starfi.online/installation</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://starfi.online/coverage</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://starfi.online/about</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://starfi.online/support</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://starfi.online/contact</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://starfi.online/privacy-policy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://starfi.online/cookie-policy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://starfi.online/terms-and-conditions</loc><priority>0.4</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://starfi.online/refund-policy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://starfi.online/disclaimer</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://starfi.online/shipping-policy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://starfi.online/acceptable-use-policy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://starfi.online/advertising-policy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+</urlset>
