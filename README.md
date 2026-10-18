@@ -17,3 +17,4 @@ Serve `dist/` with an SPA fallback to `index.html` (`public/_redirects` for Netl
 
 Plans, pricing and contact details live in `src/lib/site.ts`. Contact forms open the visitor's email app addressed to hello@starfi.online.
 # Deployment trigger
+
