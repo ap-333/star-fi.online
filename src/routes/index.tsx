@@ -9,6 +9,17 @@ import hardware from "@/assets/hardware.jpg";
 import { Cta, Faq, Orbit, SectionLabel, Testimonial } from "@/components/site/Bits";
 import { PLANS, SITE, pageHead } from "@/lib/site";
 
+const trackPhoneCall = () => {
+  // Track call conversion for Google Ads
+  if (typeof window !== "undefined" && window.gtag) {
+    window.gtag("event", "conversion", {
+      allow_custom_scripts: true,
+      event_category: "engagement",
+      event_label: "phone_call_initiated"
+    });
+  }
+};
+
 export const Route = createFileRoute("/")({
   head: () => pageHead("/", "Fast Satellite Internet, Beyond Boundaries", `${SITE.brand} is an independent satellite internet provider for rural homes, remote properties, businesses and travel. Check availability at your address.`),
   component: Home,
@@ -29,7 +40,7 @@ function Home() {
             Satellite broadband for the places cables don't reach - homes, farms, cabins and sites far from the grid.
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-            <a href={SITE.phoneHref} title="Call Starfi" className="inline-flex w-full items-center justify-center gap-3 px-7 py-4 text-[12px] font-semibold uppercase tracking-[0.16em] bg-foreground text-background hover:bg-foreground/85 shadow-sm hover:shadow-md transition-all duration-200 sm:w-auto">
+            <a href={SITE.phoneHref} onClick={trackPhoneCall} title="Call Starfi" className="inline-flex w-full items-center justify-center gap-3 px-7 py-4 text-[12px] font-semibold uppercase tracking-[0.16em] bg-foreground text-background hover:bg-foreground/85 shadow-sm hover:shadow-md transition-all duration-200 sm:w-auto">
               Call {SITE.phoneDisplay}
             </a>
             <Cta to="/plans" variant="outline">Explore Plans</Cta>
@@ -300,7 +311,7 @@ function Home() {
           <h2 className="display-xl mx-auto mt-6 max-w-4xl">Is your sky ready?</h2>
           <p className="mx-auto mt-6 max-w-md text-muted-foreground">Tell us where you are. We'll check and come back to you personally.</p>
           <div className="mt-10 flex flex-col justify-center gap-3 sm:flex-row">
-            <a href={SITE.phoneHref} className="inline-flex items-center justify-center gap-3 px-7 py-4 text-[12px] font-semibold uppercase tracking-[0.16em] bg-foreground text-background hover:bg-foreground/85 transition-all duration-200">
+            <a href={SITE.phoneHref} onClick={trackPhoneCall} className="inline-flex items-center justify-center gap-3 px-7 py-4 text-[12px] font-semibold uppercase tracking-[0.16em] bg-foreground text-background hover:bg-foreground/85 transition-all duration-200">
               Call {SITE.phoneDisplay}
             </a>
             <Cta to="/contact" variant="outline">Talk to us</Cta>
