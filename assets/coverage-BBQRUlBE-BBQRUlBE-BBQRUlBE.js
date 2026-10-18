@@ -1,0 +1,1 @@
+var e=`/assets/coverage-BT8Llfpt.jpg`;export{e as t};
