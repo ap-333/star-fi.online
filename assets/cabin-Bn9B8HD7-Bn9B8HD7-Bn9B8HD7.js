@@ -1,1 +1,0 @@
-var e=`/assets/cabin-BYhNuyKW.jpg`;export{e as t};

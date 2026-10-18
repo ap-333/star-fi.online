@@ -6,16 +6,6 @@ const STORAGE_KEY = "starfi-popup-dismissed";
 const DELAY_MS = 15000;
 const SCROLL_THRESHOLD = 0.5;
 
-const trackPhoneCall = () => {
-  if (typeof window !== "undefined" && window.gtag) {
-    window.gtag("event", "conversion", {
-      allow_custom_scripts: true,
-      event_category: "engagement",
-      event_label: "phone_call_initiated"
-    });
-  }
-};
-
 export function PopupCta() {
   const [visible, setVisible] = useState(false);
 
@@ -79,7 +69,6 @@ export function PopupCta() {
         <div className="mt-6 flex flex-col gap-3">
           <a
             href={SITE.phoneHref}
-            onClick={trackPhoneCall}
             className="flex items-center justify-center gap-2 bg-foreground px-6 py-4 text-[13px] font-semibold uppercase tracking-[0.16em] text-background transition-all hover:bg-foreground/85"
           >
             <Phone size={16} aria-hidden="true" />

@@ -1,1 +1,0 @@
-var e=`/assets/hardware-C5nzoFCR.jpg`;export{e as t};

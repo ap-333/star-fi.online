@@ -1,1 +1,0 @@
-var e=`/assets/support-B78q49Xp.jpg`;export{e as t};

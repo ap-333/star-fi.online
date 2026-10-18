@@ -1,1 +1,0 @@
-var e=`/assets/rooftop-C7Xbtjy7.jpg`;export{e as t};

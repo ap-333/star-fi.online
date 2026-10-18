@@ -1,1 +1,0 @@
-var e=`/assets/travel-Dppio41R.jpg`;export{e as t};

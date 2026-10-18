@@ -4,8 +4,10 @@ import { RouterProvider } from "@tanstack/react-router";
 
 import "./styles.css";
 import { getRouter } from "./router";
+import { installCallTracking } from "./lib/analytics";
 
 const router = getRouter();
+installCallTracking();
 
 declare module "@tanstack/react-router" {
   interface Register {
