@@ -1,0 +1,1 @@
+var e=`/assets/business-BgsmWHR_.jpg`;export{e as t};

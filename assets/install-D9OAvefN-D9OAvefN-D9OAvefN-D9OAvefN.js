@@ -1,0 +1,1 @@
+var e=`/assets/install-CiMg_MNw.jpg`;export{e as t};
