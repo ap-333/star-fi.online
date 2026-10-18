@@ -29,7 +29,7 @@ function Home() {
             Satellite broadband for the places cables don't reach - homes, farms, cabins and sites far from the grid.
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-            <a href={SITE.phoneHref} className="inline-flex w-full items-center justify-center gap-3 px-7 py-4 text-[12px] font-semibold uppercase tracking-[0.16em] bg-foreground text-background hover:bg-foreground/85 shadow-sm hover:shadow-md transition-all duration-200 sm:w-auto">
+            <a href={SITE.phoneHref} title="Call Starfi" className="inline-flex w-full items-center justify-center gap-3 px-7 py-4 text-[12px] font-semibold uppercase tracking-[0.16em] bg-foreground text-background hover:bg-foreground/85 shadow-sm hover:shadow-md transition-all duration-200 sm:w-auto">
               Call {SITE.phoneDisplay}
             </a>
             <Cta to="/plans" variant="outline">Explore Plans</Cta>
