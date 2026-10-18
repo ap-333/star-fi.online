@@ -2,45 +2,40 @@ import { useEffect, useState } from "react";
 import { Phone, X } from "lucide-react";
 import { SITE } from "@/lib/site";
 
-const STORAGE_KEY = "starfi-popup-dismissed";
-const DELAY_MS = 15000;
-const SCROLL_THRESHOLD = 0.5;
+const SESSION_KEY = "starfi-popup-shown";
+const DELAY_MS = 1500;
+
+function seenThisSession() {
+  try {
+    return sessionStorage.getItem(SESSION_KEY) !== null;
+  } catch {
+    return false;
+  }
+}
+
+function markSeen() {
+  try {
+    sessionStorage.setItem(SESSION_KEY, "1");
+  } catch {
+    // storage unavailable (private mode); popup may show again on reload
+  }
+}
 
 export function PopupCta() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    if (localStorage.getItem(STORAGE_KEY)) return;
-
-    let scrollTriggered = false;
-
-    const onScroll = () => {
-      if (scrollTriggered) return;
-      const scrollPercent = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
-      if (scrollPercent >= SCROLL_THRESHOLD) {
-        scrollTriggered = true;
-        setVisible(true);
-      }
-    };
-
+    if (seenThisSession()) return;
     const timer = setTimeout(() => {
+      markSeen();
       setVisible(true);
     }, DELAY_MS);
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-
-    return () => {
-      clearTimeout(timer);
-      window.removeEventListener("scroll", onScroll);
-    };
+    return () => clearTimeout(timer);
   }, []);
 
   if (!visible) return null;
 
-  const dismiss = () => {
-    localStorage.setItem(STORAGE_KEY, Date.now().toString());
-    setVisible(false);
-  };
+  const dismiss = () => setVisible(false);
 
   return (
     <div className="fixed inset-0 z-[70] flex items-center justify-center bg-black/60 p-4 backdrop-blur-sm" onClick={dismiss}>
