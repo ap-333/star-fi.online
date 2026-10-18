@@ -300,7 +300,9 @@ function Home() {
           <h2 className="display-xl mx-auto mt-6 max-w-4xl">Is your sky ready?</h2>
           <p className="mx-auto mt-6 max-w-md text-muted-foreground">Tell us where you are. We'll check and come back to you personally.</p>
           <div className="mt-10 flex flex-col justify-center gap-3 sm:flex-row">
-            <Cta to="/coverage">Check Availability</Cta>
+            <a href={SITE.phoneHref} className="inline-flex items-center justify-center gap-3 px-7 py-4 text-[12px] font-semibold uppercase tracking-[0.16em] bg-foreground text-background hover:bg-foreground/85 transition-all duration-200">
+              Call {SITE.phoneDisplay}
+            </a>
             <Cta to="/contact" variant="outline">Talk to us</Cta>
           </div>
         </div>
