@@ -48,7 +48,7 @@ export default function RefundPolicy() {
     <LegalLayout title="Refund Policy" updated="October 15, 2026">
       <Section title="1. 30-Day Trial">
         <p>
-          Every Starfi plan starts with a 30-day trial period from the date of activation. During
+          Every Star-Fi plan starts with a 30-day trial period from the date of activation. During
           this trial, you may cancel your service and request a full refund if you are not
           satisfied with the performance or experience.
         </p>
@@ -85,7 +85,7 @@ export default function RefundPolicy() {
         </p>
         <p>
           Equipment must be returned in its original condition and packaging. Return shipping costs
-          are covered by Starfi for defective items.
+          are covered by Star-Fi for defective items.
         </p>
       </Section>
 

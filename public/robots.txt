@@ -16,4 +16,4 @@ Crawl-delay: 10
 User-agent: DotBot
 Crawl-delay: 10
 
-Sitemap: https://starfi.online/sitemap.xml
+Sitemap: https://star-fi.online/sitemap.xml

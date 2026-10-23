@@ -1,3 +1,3 @@
-Contact: mailto:hello@starfi.online
-Policy: https://starfi.online/privacy-policy
+Contact: mailto:contact@star-fi.online
+Policy: https://star-fi.online/privacy-policy
 Preferred-Languages: en

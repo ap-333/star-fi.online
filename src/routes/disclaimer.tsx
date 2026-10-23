@@ -47,7 +47,7 @@ export default function Disclaimer() {
     <LegalLayout title="Disclaimer" updated="October 15, 2026">
       <Section title="1. General Disclaimer">
         <p>
-          The information provided by Starfi on this website is for general informational purposes
+          The information provided by Star-Fi on this website is for general informational purposes
           only. All information on the site is provided in good faith; however, we make no
           representation or warranty of any kind regarding the accuracy, adequacy, validity,
           reliability, availability, or completeness of any information on the site.
@@ -87,9 +87,9 @@ export default function Disclaimer() {
       <Section title="4. Third-Party Links and Content">
         <p>
           This website may contain links to third-party websites or services that are not owned or
-          controlled by Starfi. We have no control over, and assume no responsibility for, the
+          controlled by Star-Fi. We have no control over, and assume no responsibility for, the
           content, privacy policies, or practices of any third-party websites or services. The
-          inclusion of any link does not imply endorsement by Starfi.
+          inclusion of any link does not imply endorsement by Star-Fi.
         </p>
       </Section>
 
@@ -105,7 +105,7 @@ export default function Disclaimer() {
 
       <Section title="6. Limitation of Liability">
         <p>
-          To the fullest extent permitted by applicable law, Starfi shall not be liable for any
+          To the fullest extent permitted by applicable law, Star-Fi shall not be liable for any
           indirect, incidental, special, consequential, or punitive damages, or any loss of profits
           or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill,
           or other intangible losses, resulting from:
@@ -121,7 +121,7 @@ export default function Disclaimer() {
 
       <Section title="7. No Warranty">
         <p>
-          This website is provided on an "as is" and "as available" basis. Starfi makes no
+          This website is provided on an "as is" and "as available" basis. Star-Fi makes no
           warranties, expressed or implied, regarding the operation of the website, the information
           provided, or the services described, including but not limited to implied warranties of
           merchantability and fitness for a particular purpose.

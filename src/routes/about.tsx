@@ -50,7 +50,7 @@ function About() {
         <div className="absolute inset-0 mx-auto flex max-w-[1440px] items-center px-5 md:px-10">
           <div className="max-w-md space-y-5">
             <SectionLabel>Our story</SectionLabel>
-            <p className="text-foreground/90">Starfi connects homes, vehicles and remote places with satellite internet - with plans that are simple, priced clearly and backed by a 30-day trial.</p>
+            <p className="text-foreground/90">Star-Fi connects homes, vehicles and remote places with satellite internet - with plans that are simple, priced clearly and backed by a 30-day trial.</p>
             <p className="text-foreground/90">We tell you what to expect at your location before you commit, and we're a real email away at {SITE.email}.</p>
           </div>
         </div>

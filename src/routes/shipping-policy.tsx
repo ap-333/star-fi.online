@@ -47,7 +47,7 @@ export default function ShippingPolicy() {
     <LegalLayout title="Shipping Policy" updated="October 15, 2026">
       <Section title="1. Equipment Delivery Overview">
         <p>
-          When you purchase a Starfi plan, the necessary equipment (satellite terminal, router,
+          When you purchase a Star-Fi plan, the necessary equipment (satellite terminal, router,
           mounting hardware, and cabling) is shipped to your provided address. We aim to deliver
           equipment quickly so you can get connected as soon as possible.
         </p>

@@ -29,7 +29,7 @@ function Home() {
             Satellite broadband for the places cables don't reach - homes, farms, cabins and sites far from the grid.
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-            <a href={SITE.phoneHref} title="Call Starfi" className="inline-flex w-full items-center justify-center gap-3 px-7 py-4 text-[12px] font-semibold uppercase tracking-[0.16em] bg-foreground text-background hover:bg-foreground/85 shadow-sm hover:shadow-md transition-all duration-200 sm:w-auto">
+            <a href={SITE.phoneHref} title="Call Star-Fi" className="inline-flex w-full items-center justify-center gap-3 px-7 py-4 text-[12px] font-semibold uppercase tracking-[0.16em] bg-foreground text-background hover:bg-foreground/85 shadow-sm hover:shadow-md transition-all duration-200 sm:w-auto">
               Call {SITE.phoneDisplay}
             </a>
             <Cta to="/plans" variant="outline">Explore Plans</Cta>
@@ -66,12 +66,12 @@ function Home() {
         </div>
       </section>
 
-      {/* WHY CHOOSE STARFI */}
+      {/* WHY CHOOSE STAR-FI */}
       <section className="border-y bg-card">
         <div className="mx-auto max-w-[1440px] px-5 py-24 md:px-10 md:py-32">
           <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
             <div>
-              <SectionLabel n="02">Why Starfi</SectionLabel>
+              <SectionLabel n="02">Why Star-Fi</SectionLabel>
               <h2 className="display-lg mt-6 max-w-2xl">Built for the places others overlook.</h2>
             </div>
             <Link to="/about" className="link-line self-start text-sm font-semibold uppercase tracking-[0.14em] md:self-end">Our story →</Link>
@@ -221,7 +221,7 @@ function Home() {
           <h2 className="display-lg mt-6 max-w-2xl">What our customers say.</h2>
           <div className="mt-16 grid gap-6 md:grid-cols-3">
             <Testimonial
-              quote="We've been in the mountains for years with barely any signal. Starfi changed everything - the kids can do homework, I can video call clients, and we finally feel connected."
+              quote="We've been in the mountains for years with barely any signal. Star-Fi changed everything - the kids can do homework, I can video call clients, and we finally feel connected."
               name="Sarah M."
               role="Homeowner"
               location="Boise, Idaho"
@@ -233,7 +233,7 @@ function Home() {
               location="Eastern Oregon"
             />
             <Testimonial
-              quote="We travel full-time in our RV and Starfi Roam keeps us online from campgrounds to remote boondocking spots. The pause feature saves us money when we're stationary for weeks."
+              quote="We travel full-time in our RV and Star-Fi Roam keeps us online from campgrounds to remote boondocking spots. The pause feature saves us money when we're stationary for weeks."
               name="Mike & Lisa T."
               role="Full-time RVers"
               location="Arizona"
@@ -249,7 +249,7 @@ function Home() {
             <SectionLabel n="10">Coverage</SectionLabel>
             <h2 className="display-lg mt-6">Where we serve.</h2>
             <p className="mt-6 max-w-md text-muted-foreground">
-              Starfi provides satellite internet coverage across the contiguous United States, with
+              Star-Fi provides satellite internet coverage across the contiguous United States, with
               particular focus on rural and remote areas underserved by traditional broadband.
             </p>
             <div className="mt-8 space-y-3 text-sm">
@@ -270,7 +270,7 @@ function Home() {
             <div className="mt-10"><Cta to="/coverage">Check your address</Cta></div>
           </div>
           <div className="md:col-span-7">
-            <img src={hardware} alt="Starfi satellite terminal and router equipment" width={1600} height={1200} loading="lazy" className="aspect-[4/3] w-full object-cover" />
+            <img src={hardware} alt="Star-Fi satellite terminal and router equipment" width={1600} height={1200} loading="lazy" className="aspect-[4/3] w-full object-cover" />
           </div>
         </div>
       </section>

@@ -1,7 +1,7 @@
 {
-  "name": "Starfi - Satellite Internet",
-  "short_name": "Starfi",
-  "description": "Starfi satellite internet for homes, remote properties and life on the road.",
+  "name": "Star-Fi - Satellite Internet",
+  "short_name": "Star-Fi",
+  "description": "Star-Fi satellite internet for homes, remote properties and life on the road.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0d0f13",

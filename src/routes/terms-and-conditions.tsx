@@ -47,7 +47,7 @@ export default function TermsAndConditions() {
     <LegalLayout title="Terms and Conditions" updated="October 15, 2026">
       <Section title="1. Acceptance of Terms">
         <p>
-          By accessing or using the Starfi website and services, you agree to be bound by these
+          By accessing or using the Star-Fi website and services, you agree to be bound by these
           Terms and Conditions and all applicable laws and regulations. If you do not agree with
           any of these terms, you are prohibited from using or accessing this site.
         </p>
@@ -55,7 +55,7 @@ export default function TermsAndConditions() {
 
       <Section title="2. Service Description">
         <p>
-          Starfi provides satellite internet connectivity services for residential, business, and
+          Star-Fi provides satellite internet connectivity services for residential, business, and
           mobile (Roam) applications. Services include:
         </p>
         <ul className="list-disc space-y-2 pl-6">
@@ -102,7 +102,7 @@ export default function TermsAndConditions() {
 
       <Section title="6. Acceptable Use">
         <p>
-          You agree not to use the Starfi service for any unlawful purpose or in any manner that
+          You agree not to use the Star-Fi service for any unlawful purpose or in any manner that
           could damage, disable, or impair the network. Prohibited activities include:
         </p>
         <ul className="list-disc space-y-2 pl-6">
@@ -118,8 +118,8 @@ export default function TermsAndConditions() {
       <Section title="7. Equipment">
         <p>
           Equipment supplied with your service (satellite terminal, router, cabling, and mounting
-          hardware) is provided for use with Starfi service. Depending on your plan, equipment may
-          be owned by Starfi or by you. Refer to your service agreement for ownership terms.
+          hardware) is provided for use with Star-Fi service. Depending on your plan, equipment may
+          be owned by Star-Fi or by you. Refer to your service agreement for ownership terms.
         </p>
         <p>
           You are responsible for the care of the equipment. Damage caused by misuse, neglect, or
@@ -134,7 +134,7 @@ export default function TermsAndConditions() {
           of the current billing cycle.
         </p>
         <p>
-          Starfi reserves the right to suspend or terminate service for breach of these terms,
+          Star-Fi reserves the right to suspend or terminate service for breach of these terms,
           non-payment, or unacceptable use. If your service is terminated for cause, no refund
           will be issued for the remaining billing period.
         </p>
@@ -142,7 +142,7 @@ export default function TermsAndConditions() {
 
       <Section title="9. Limitation of Liability">
         <p>
-          To the maximum extent permitted by law, Starfi shall not be liable for any indirect,
+          To the maximum extent permitted by law, Star-Fi shall not be liable for any indirect,
           incidental, special, or consequential damages arising from or related to your use of the
           service. Our total liability for any claim related to the service shall not exceed the
           amount you paid for the service in the three months preceding the claim.

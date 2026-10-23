@@ -59,7 +59,7 @@ export default function CookiePolicy() {
       </Section>
 
       <Section title="2. How We Use Cookies">
-        <p>Starfi uses cookies for the following purposes:</p>
+        <p>Star-Fi uses cookies for the following purposes:</p>
 
         <h3 className="font-display text-lg font-semibold">2.1 Essential Cookies</h3>
         <p>

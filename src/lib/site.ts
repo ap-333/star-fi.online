@@ -1,9 +1,9 @@
 export const SITE = {
-  brand: "Starfi",
-  domain: "starfi.online",
-  url: "https://starfi.online",
+  brand: "Star-Fi",
+  domain: "star-fi.online",
+  url: "https://star-fi.online",
   tagline: "Satellite internet, beyond boundaries.",
-  email: "contact@starfi.online",
+  email: "contact@star-fi.online",
   phone: "8008918321",
   phoneHref: "tel:+18008918321",
   phoneDisplay: "(800) 891-8321",

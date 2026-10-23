@@ -61,7 +61,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           name: SITE.brand,
           url: SITE.url,
           logo: `${SITE.url}/favicon.svg`,
-          description: "Starfi is an independent satellite internet provider for rural homes, remote properties, businesses and travel.",
+          description: "Star-Fi is an independent satellite internet provider for rural homes, remote properties, businesses and travel.",
           contactPoint: {
             "@type": "ContactPoint",
             telephone: SITE.phone,
@@ -78,7 +78,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@type": "WebSite",
           name: SITE.brand,
           url: SITE.url,
-          description: "Starfi satellite internet for homes, remote properties and life on the road.",
+          description: "Star-Fi satellite internet for homes, remote properties and life on the road.",
         }),
       },
     ],

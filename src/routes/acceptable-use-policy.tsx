@@ -46,7 +46,7 @@ export default function AcceptableUsePolicy() {
     <LegalLayout title="Acceptable Use Policy" updated="October 15, 2026">
       <Section title="1. Purpose">
         <p>
-          This Acceptable Use Policy outlines the rules and guidelines for using Starfi's satellite
+          This Acceptable Use Policy outlines the rules and guidelines for using Star-Fi's satellite
           internet services. By using our services, you agree to comply with this policy. We are
           committed to providing reliable, high-quality service to all customers, and this policy
           helps ensure fair and responsible use of our network.
@@ -54,7 +54,7 @@ export default function AcceptableUsePolicy() {
       </Section>
 
       <Section title="2. Acceptable Use">
-        <p>You may use Starfi services for:</p>
+        <p>You may use Star-Fi services for:</p>
         <ul className="list-disc space-y-2 pl-6">
           <li>Personal internet browsing, email, and communication</li>
           <li>Video streaming, music streaming, and content consumption</li>
@@ -67,7 +67,7 @@ export default function AcceptableUsePolicy() {
       </Section>
 
       <Section title="3. Prohibited Activities">
-        <p>You may not use Starfi services for any of the following:</p>
+        <p>You may not use Star-Fi services for any of the following:</p>
 
         <h3 className="font-display text-lg font-semibold">3.1 Illegal Activities</h3>
         <ul className="list-disc space-y-2 pl-6">
@@ -97,14 +97,14 @@ export default function AcceptableUsePolicy() {
         <h3 className="font-display text-lg font-semibold">3.4 Commercial Use</h3>
         <ul className="list-disc space-y-2 pl-6">
           <li>Operating commercial servers or hosting services under a Residential plan</li>
-          <li>Reselling, subleasing, or redistributing Starfi service to third parties</li>
+          <li>Reselling, subleasing, or redistributing Star-Fi service to third parties</li>
           <li>Running call centers, data centers, or other high-capacity commercial operations without a Business plan</li>
         </ul>
       </Section>
 
       <Section title="4. Network Management">
         <p>
-          Starfi employs network management practices to ensure fair access and optimal performance
+          Star-Fi employs network management practices to ensure fair access and optimal performance
           for all customers. These may include:
         </p>
         <ul className="list-disc space-y-2 pl-6">
@@ -156,7 +156,7 @@ export default function AcceptableUsePolicy() {
       <Section title="8. Changes to This Policy">
         <p>
           We may update this Acceptable Use Policy from time to time. Changes will be posted on
-          this page with an updated "Last Updated" date. Continued use of Starfi services after
+          this page with an updated "Last Updated" date. Continued use of Star-Fi services after
           changes constitutes acceptance of the revised policy.
         </p>
       </Section>

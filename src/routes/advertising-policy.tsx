@@ -46,7 +46,7 @@ export default function AdvertisingPolicy() {
     <LegalLayout title="Advertising Policy" updated="October 15, 2026">
       <Section title="1. Our Commitment to Honest Advertising">
         <p>
-          Starfi is committed to providing clear, honest, and transparent advertising. We believe
+          Star-Fi is committed to providing clear, honest, and transparent advertising. We believe
           that our customers deserve accurate information about our services, pricing, and
           performance to make informed decisions.
         </p>
@@ -117,7 +117,7 @@ export default function AdvertisingPolicy() {
 
       <Section title="7. Affiliate Relationships">
         <p>
-          From time to time, Starfi may participate in affiliate programs where we earn a
+          From time to time, Star-Fi may participate in affiliate programs where we earn a
           referral fee if you click a link and make a purchase. These relationships do not affect
           the price you pay or the information we provide. We clearly identify affiliate links
           where applicable.

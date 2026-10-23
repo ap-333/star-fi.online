@@ -47,7 +47,7 @@ export default function PrivacyPolicy() {
     <LegalLayout title="Privacy Policy" updated="October 15, 2026">
       <Section title="1. Introduction">
         <p>
-          Starfi ("we", "our", or "us") operates starfi.online and provides satellite internet services
+          Star-Fi ("we", "our", or "us") operates star-fi.online and provides satellite internet services
           to residential, business, and mobile customers. This Privacy Policy explains what personal
           information we collect, how we use it, who we share it with, and the rights you have over
           your data.
