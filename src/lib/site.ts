@@ -4,9 +4,9 @@ export const SITE = {
   url: "https://star-fi.online",
   tagline: "Satellite internet, beyond boundaries.",
   email: "contact@star-fi.online",
-  phone: "8008918321",
-  phoneHref: "tel:+18008918321",
-  phoneDisplay: "(800) 891-8321",
+  phone: "8008847484",
+  phoneHref: "tel:+18008847484",
+  phoneDisplay: "(800) 884-7484",
   address: "Satellite Internet Services, 1200 Meridian Suite 100, Austin, TX 78701",
   hours: "Monday – Friday, 8 AM – 8 PM CST",
 };
