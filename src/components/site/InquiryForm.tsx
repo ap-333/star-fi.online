@@ -1,6 +1,7 @@
 import { useState, type FormEvent } from "react";
 import { Phone } from "lucide-react";
 import { SITE } from "@/lib/site";
+import { trackConversion } from "@/lib/analytics";
 
 type Kind = "contact" | "availability" | "plan" | "installation" | "business" | "travel";
 type Status = "idle" | "loading" | "success" | "error";
@@ -26,7 +27,8 @@ export function InquiryForm({
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const fd = new FormData(e.currentTarget);
+    const form = e.currentTarget;
+    const fd = new FormData(form);
     const v = (k: string) => String(fd.get(k) ?? "").trim();
     const data = { name: v("name"), email: v("email"), phone: v("phone"), location: v("location"), inquiry_type: v("inquiry_type") || defaultType || null, message: v("message") };
     const errs: { [k: string]: string } = {} as any;
@@ -41,7 +43,7 @@ export function InquiryForm({
     setErrors(errs);
     if (Object.keys(errs).length) {
       const first = Object.keys(errs)[0] ?? "name";
-      (e.currentTarget.elements.namedItem(first) as HTMLElement | null)?.focus();
+      (form.elements.namedItem(first) as HTMLElement | null)?.focus();
       return;
     }
     setStatus("loading");
@@ -67,8 +69,9 @@ export function InquiryForm({
       });
 
       if (response.ok) {
+        trackConversion("form_submit");
+        form.reset();
         setStatus("success");
-        (e.currentTarget as HTMLFormElement).reset();
       } else {
         setStatus("error");
       }
